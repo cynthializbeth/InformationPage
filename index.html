@@ -1,0 +1,212 @@
+<!--  DOCTYPE le dice al navegador que este archivo es tipo html -->
+<!DOCTYPE html>
+<!-- lang = "es" -> significa que la página web está en lenguaje español. -->
+<html lang="es">
+    <!-- Encabezado de la página web -> Información que se le da al navegador. -->
+    <head>
+        <!-- Titulo de la pestaña de la página -->
+        <title> Web de Mascotas </title> 
+        <link rel="stylesheet" href="style.css"> <!-- Enlazando el archivo css -->
+        <!-- Enlazando la fuente de google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <!-- Enlazando la fuente de google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <!-- Cuerpo de la página web -> lo que el usuatix ve -->
+    <body>
+        <!-- División: Tamaños de titulos de la fuente más grande a la fuente más chica -->
+        <div>
+            <!--
+            <h1>Hola Mundo!</h1>
+            <h2>Hola Mundo!!!</h2>
+            <h3>Hola Mundo!!</h3>
+            <h4>Hola Mundo!!</h4>
+            <h5>Hola Mundo!! </h5>
+            <h6>Hola Mundo!!</h6>
+            -->
+            
+            <!-- Parrafo -->
+            <!--
+            <p>Texto texto</p>
+            -->
+        </div>
+        <!-- Main: Parte principal del body -->
+        <main>
+            <!-- class nos sirve para identificar al elemento de otro con una etiqueta igual. -->
+            <h1 class="titulo-web">🐱 ¡¡¡ Bienvenido a la Web de Mascotas !!! 🐶</h1>
+
+            <!-- Parte principal del body -->
+            <la>
+                <!-- Imagen por link. -->
+                <img class="perrosygatos"
+                    src="https://www.clinicaveterinariaalbacora.com/wp-content/uploads/2017/11/problema-de-comportamiento-perros-y-gatos-650x390.jpg">
+                <h3>Cosas útiles para perros y gatos</h3>
+                <!-- División de la página web: División de otros elementos -->
+                <div class="listas">
+
+                    <!-- ------------ ------------ [ LISTAS ] ------------ ------------ -->
+                    <!-- <em> Algo </em> -> lo que está dentro de la etiqueta se imprime en cursiva. -->
+                    <!-- <strong> Algo </strong> -> lo que está dentro de la etiqueta se imprime en negrita. -->
+                    <p>Lista de <em>cosas útiles</em> si tienes un <strong>gato</strong>.</p>
+                    <!-- Lista no ordenada (ul) - unordered list -->
+                    <ul>
+                        <li>Juguetes</li>
+                        <li>Comida para gatos</li>
+                        <li>Arena para gatos</li>
+                        <li>Arenero</li>
+                        <li>Servicio veterinario</li>
+                        <li>Dale mucho amor :)</li>
+                        <!-- Haciendo una hiperrefencia al lugar que tiene por id gato -> href="#gato" -->
+                        <li>Quieres saber sobre el <a href="#gato">cuidado de gatos </a></li> 
+                    </ul>
+                    <!-- Imagen desde almacenamiento interno. -->
+                    <img src="Imagenes/gatito.jpeg">                    
+                    <p>Lista de <em>cosas útiles</em> si tienes un <strong>perro</strong>.</p>
+                    <!-- Lista no ordenada (ul) - unordered list -->
+                    <ul>
+                        <li>Juguetes</li> <!-- item de la lista -->
+                        <li>Comida para perros</li>
+                        <li>Transportadora si el perro es pequeño</li>
+                        <li>Correa y collar</li>
+                        <li>Servicio veterinario</li>
+                        <li>Dale mucho amor :)</li>
+                        <li>Quieres saber sobre el <a href="#perro">cuidado de perros </a></li>
+                    </ul>
+                    <!-- Imagen desde almacenamiento interno. -->
+                    <img src="Imagenes/perro.jpg">
+                    <!-- Enlaces internos de navegación con el atributo id -->
+                    <h3 id="gato">Cuidados de un gato</h3>
+                    <!-- Lista no ordenada (ul) - unordered list -->
+                    <ol>
+                        <li><strong>Alimentación:</strong> Alimenta a tu gato dependiendo de cada etapa de su vida.</li>
+                        <li><strong>Agua:</strong>Limpia, en abundancia e idealmente servida en bebederos de acero inoxidable o
+                            aluminio.
+                            En verano, ubica varios bebederos de estas características en distintos lugares de tu casa, para
+                            que tu gato siempre tenga agua a mano si quiere beber.</li>
+                        <li><strong>Mantenimiento óptimo del arenero:</strong> Adquiere un arenero que se adapte bien a sus
+                            dimensiones, sobre
+                            todo cuando tu gato ya haya alcanzado su etapa adulta. Colócalo en un lugar tranquilo, alejado de
+                            la zona de alimentación, bebida y relax. </li>
+                        <li> <strong>Uñas y patas:</strong>Acostúmbralo a limarse las uñas en un rascador desde que es gatito. Ésta
+                            es la mejor
+                            solución para que no recurra a hacerlo en sofás, cortinas y muebles. Añade a este aspecto la rutina
+                            del corte de uñas. </li>
+                        <li><strong>Ejercítalo mediante el juego:</strong> No es necesario comprar juguetes extra, simplemente juega
+                            con él.</li>
+                    </ol>
+                    <!-- El atributo alt nos permite describir una imagen -->
+                    <img src="Imagenes/caricatura.png" alt="Caricatura de dos tiernos gatitos blancos.">
+                    <h3 id="perro">Cuidados de un perro</h3>
+                    <!-- Lista ordenada (ol) - ordered list -->
+                    <ol>
+                        <li><strong>Alimentación:</strong> Elige alimento nutritivo y darle una buena hidratación esto es clave para
+                            su bienestar.
+                            Hay que ofrecerles alimentos de calidad en función de su etapa de vida, según si es cachorro, adulto o
+                            senior.</li>
+                        <li><strong>Educación animal:</strong>Enseñar a un perro es esencial para que se desarrolle
+                            satisfactoriamente. Hay que indicarle dónde
+                            hacer sus necesidades, en qué espacios, qué puede hacer y que no, y guiarlo desde el principio para
+                            inculcarle un buen
+                            aprendizaje.</li>
+                        <li><strong>Higiene del perro:</strong> Hay que bañar a un perro, el promedio aproximado es una vez al mes.
+                            Asimismo, hay que cepillarles
+                            diariamente, y cortarles el pelo y las uñas cuando sea necesario.
+                            También hay que prestar atención a la higiene de sus oídos y ojos, para evitar la acumulación de
+                            suciedad y de legañas. </li>
+                        <li> <strong>Paseos y actividad física:</strong>Los perros necesitan moverse y ejercitarse cada día. Por
+                            ello, entre los cuidados de un
+                            perro está el sacarle a pasear al menos tres veces al día, tanto para promover su actividad como para
+                            que pueda hacer sus necesidades
+                            vitales. Aparte de los paseos también es bueno jugar con ellos en casa y mantenerlos activos de forma
+                            habitual.</li>
+                        <li><strong>Atención y cuidados veterinarios:</strong> No siempre los cuidados del perro están a nuestro
+                            alcance y acudir al veterinario
+                            es necesario en muchos casos para revisar su estado de salud e intervenir con el tratamiento oportuno.
+                            Además, si tienes un perro
+                            deberás visitar al veterinario para ponerle las correspondientes vacunas, el chip y determinar un plan
+                            de desparasitación adecuado
+                            al animal.</li>
+                    </ol>
+                    <!-- El atributo alt nos permite describir una imagen -->
+                    <img src="https://images.vexels.com/media/users/3/140072/isolated/preview/02bac95a04a65600a095ae5948d87756-dibujos-animados-de-perro.png" alt="Ilustración de un perrito cafe.">
+                </div>
+                <!-- Enlaces externos de navegación -->
+                <p> En este link hay más información disponible sobre tus mascotas: 
+                    <a href="https://postgradoveterinaria.com/blog-de-animales/"> blog de animales </a>
+                </p>
+                <p> Quieres ver imagenes de perros y gatos da click en la imagen :)</p>
+                <!-- Elemento ancla: <a> href="https://paginadeinternet" crea un enlace a otras páginas. -->
+                <a href="https://www.shutterstock.com/es/search/perro-y-gato">
+                    <img
+                        src="https://img.freepik.com/vector-gratis/ejemplo-lindo-icono-vector-historieta-perro-gato-corgi-concepto-icono-amigo-animal-aislado-vector-premium-estilo-dibujos-animados-plana_138676-3558.jpg">
+                </a>
+
+                <!-- ------------ ------------ [ FORMULARIOS ] ------------ ------------ -->
+
+                <!-- 
+                    Formulario Radio: En este tipo de formulario, el usuario puede seleccionar
+                    una opción de un grupo de opciones. 
+                -->
+                <p>¿Qué tipo de gato tienes?</p> 
+                <!-- 
+                    El label representa una etiqueta para un elemento en una interfaz de usuario.
+                    for="identificador" en este caso identificamos la label con el atributo for.
+                    Los atributos de las entradas input son:
+                        - id: El id que identifica la opción, se útiliza para llamar a la opción pero no se debe útlizar muy seguido. 
+                        - type: El tipo de elemento. En este caso, radio.
+                        - value: El valor inicial del campo de entrada o en este caso el valor que se envía al servidor.
+                        - name: El nombre del grupo de opciones. Nos permite agrupar opciones.
+                        - checked: El elemento que se selecciona por defecto.
+                -->
+                <!-- Opción Siamés -->
+                <label for="siames" class="tipoGato">
+                    <!-- input: la entrada, en este caso de tipo radio. -->
+                    <input id="siames" type="radio" value="siames" name="tipo"> Siames 🐈
+                </label>
+                <!-- Opción Himalaya -->
+                <label for="himalaya" class="tipoGato">
+                    <input id="himalaya" type="radio" value="himalaya" name="tipo"> Himalaya 🐈‍⬛
+                </label>
+                <!-- Opción Persa -->
+                <label for="persa" class="tipoGato">
+                    <input id="persa" type="radio" value="persa" name="tipo"> Persa 🐈‍
+                </label>
+                <!-- Opción Británico -->
+                <label for="britanico" class="tipoGato">
+                    <input id="britanico" type="radio" value="britanico" name="tipo"> Británico 🐈‍⬛
+                </label>
+                
+                <!-- 
+                    Formulario checkbox: En este tipo de formulario, el usuario puede seleccionar una 
+                    o varias opciones de un grupo de opciones.
+                -->
+                <p>¿Cómo es tu gato?</p>
+                <!-- Opción Cariñoso -->
+                <label for="cariñoso" class="tipoPersonalidad">
+                    <input id="cariñoso" type="checkbox" value="cariñoso" name="caracteristicas"> Cariñoso 🐈→🥰
+                </label>
+                <!-- Opción Juguetón -->
+                <label for="jugueton" class="tipoPersonalidad">
+                    <input id="jugueton" type="checkbox" value="jugueton" name="caracteristicas"> Juguetón 🐈→😃
+                </label>
+                <!-- Opción Curioso -->
+                <label for="curioso" class="tipoPersonalidad">
+                    <input id="curioso" type="checkbox" value="curioso" name="caracteristicas"> Curioso 🐈→🧐
+                </label>
+                <!-- Opción Gruñón -->
+                <label for="gruñon" class="tipoPersonalidad">
+                    <input id="gruñon" type="checkbox" value="gruñon" name="caracteristicas"> Gruñón 🐈→😠
+                </label>
+        </main>
+        <!-- Pie de página: Información extra -->
+        <footer>
+            <p> 💻 Página creada para el curso
+              <a href="https://tecnolochicas.mx">Tecnolochicas </a> por Cynthia Lizbeth Sánchez Urbano 🖱️
+            </p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,85 @@
+/* Estilo de body */
+body {
+    /* El color de fondo de la página web. */
+    background-color: rgb(162, 218, 215);
+    /* Fondo de página de imagen */
+    /*background-image: url("https://us.123rf.com/450wm/nirvanaa/nirvanaa1802/nirvanaa180200013/95371446-puntos-blancos-en-el-vector-de-fondo-azul-claro-de-patrones-sin-fisuras.jpg?ver=6");*/
+    /* La fuente de la página web. */
+    font-family: 'Alegreya Sans', sans-serif;
+    /* El tamaño de la fuente de la página web. */
+    font-size: 25px;
+    /* El color de la fuente de la página web. */
+    color: #000000;
+    /* El margen de la página web. */
+    margin: 50px;
+    /* Justifica el texto de la página web. */
+    text-align: justify;
+}
+
+/* Estilo de hipervinculos. */
+a{
+    color: rgb(121, 4, 106);
+}
+
+/* Estilo de subtitulos. */
+h3{
+    color: rgb(245, 6, 107);
+}
+
+/* Estilo de imagenes. */
+img{
+
+    /* Tamaño resposivo: Máximo de ancho (width) y altura automatica (height).*/
+    max-width: 40%;
+    height: auto;
+
+    /* Centrar la imagen. */
+    display: block;
+    margin: auto;
+    text-align: center;
+
+}
+
+/* Estilo de etiquetas. */
+label{
+    color: rgb(0, 55, 173);
+}
+
+/* Estilo del pie de página. */
+footer{
+    /* Centrar el footer. */
+    text-align: center;
+    background-color: palevioletred;
+}
+  
+
+/**
+  * Edición de estilos de Clases.
+  * Para agregar una clase, ponemos un ( . ) antes del nombre. 
+  */
+
+/* Titulo de la página web. */
+.titulo-web{
+    color: rgb(252, 74, 126);
+    /* Justifica el texto de la página web. */
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+}
+
+/* Imagen principal de la página web. */
+.perrosygatos{
+    max-width: 80%;
+    height: auto;
+}
+
+.tipoGato{
+    accent-color: rgb(241, 243, 100);
+    
+}
+
+.tipoPersonalidad{
+    accent-color: rgb(241, 243, 100);
+    
+}
+  
